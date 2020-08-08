@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="page.ERP">
+        <methods>
+          <include name="Clients"/>
+          <include name="CompanyProfilePage"/>
+          <include name="LoginPage"/>
+          <include name="LogoutPage"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="Branches"/>
+        </methods>
+      </class> <!-- page.ERP -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
